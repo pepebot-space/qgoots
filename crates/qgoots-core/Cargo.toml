@@ -1,0 +1,17 @@
+[package]
+name = "qgoots-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow.workspace = true
+duckdb.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tokio.workspace = true
+reqwest.workspace = true
+tracing.workspace = true
+sha2.workspace = true
+glob.workspace = true
+
+# we might need duckdb-rs bundled feature if not inherited

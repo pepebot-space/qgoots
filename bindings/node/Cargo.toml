@@ -1,0 +1,13 @@
+[package]
+name = "qgoots-node"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+napi = { version = "2.16", default-features = false, features = ["napi4", "tokio_rt", "async"] }
+napi-derive = "2.16"
+qgoots-core.workspace = true
+duckdb.workspace = true
