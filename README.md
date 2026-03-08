@@ -1,0 +1,2 @@
+# qgoots
+Memory powered duckdb
